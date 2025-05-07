@@ -32,7 +32,7 @@ def predict(text):
     return label, confidence
 
 st.title("Fake News Detector 🕵️‍♂️")
-text_input = st.text_area("Masukkan berita atau pernyataan:")
+text_input = st.text_area("Masukkan berita atau pernyataan in English:")
 
 if st.button("Deteksi"):
     if text_input.strip() == "":
