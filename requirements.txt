@@ -1,8 +1,7 @@
 streamlit
+torch==2.2.1
 transformers==4.30.2
-torch==2.2.1+cpu
 scikit-learn
 pandas
 numpy
 nltk
--f https://download.pytorch.org/whl/torch_stable.html
