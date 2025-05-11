@@ -3,5 +3,3 @@ torch==1.13.1
 transformers==4.28.1
 tokenizers==0.13.3
 sentencepiece==0.1.99
-pandas==1.5.3
-numpy==1.23.5
