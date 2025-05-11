@@ -1,7 +1,7 @@
 streamlit==1.32.2
 torch==1.13.1
 transformers==4.28.1
-scikit-learn==1.2.2
+tokenizers==0.13.3
+sentencepiece==0.1.99
 pandas==1.5.3
 numpy==1.23.5
-nltk==3.8.1
