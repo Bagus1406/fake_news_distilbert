@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import DistilBertTokenizerFast, DistilBertForSequenceClassification
 import torch
 
-# Inisialisasi model dan tokenizer dari model yang sama
+# Inisialisasi model dan tokenizer dari model
 @st.cache_resource
 def load_model():
     tokenizer = DistilBertTokenizerFast.from_pretrained("kupr0y/fake-news-model")
